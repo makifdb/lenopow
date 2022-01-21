@@ -11,7 +11,7 @@ arch=('any')
 url="https://github.com/makifdb/${pkgname}"
 license=('custom:unlicense')
 source=("https://github.com/makifdb/${pkgname}/archive/${pkgver}.tar.gz")
-sha256sums=('d4b3e4453a65ebe3e67dea817e162aea391bceb8ab6b8f7e3cb02f25f41a13e4')
+sha256sums=('3a018b070e08df728a39bdd6d4bf1a75083b06c3fe6a0b54ac11e6895fa2e4ec')
 
 package() {
     cd "${srcdir}/${pkgname}-${pkgver}"
